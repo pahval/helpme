@@ -1,5 +1,5 @@
-exports.getForm = (req,res,next)=>{
-    res.render('index.ejs',{
+exports.getForm = (req,res,next) => {
+    res.render('index.ejs', {
         pageTitle: 'FORM'
     })
 }
